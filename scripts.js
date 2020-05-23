@@ -103,7 +103,7 @@ btnFormulario.addEventListener('click', (e) => {
 
 document.addEventListener('DOMContentLoaded', () => {
 
-    let mensajeModal = 'Bienvenido a la App Elizabeth'
+    let mensajeModal = 'Bienvenido a Mascotas'
     let tipoModal = 'Exito' /* Info Exito Error */
 
     abrirMensaje(mensajeModal, tipoModal)
