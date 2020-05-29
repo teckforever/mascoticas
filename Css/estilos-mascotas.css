@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 html, body {
   position: relative;
   height: 100%;
@@ -16,6 +20,24 @@ body {
   color: #000;
   margin: 0;
   padding: 0;
+}
+
+.cont-regresar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;  
+  font-size: 23px;
+  font-weight: bold;
+  padding: 10px 5px;
+  z-index: 200;
+}
+
+.cont-regresar a {
+  color: lightseagreen;
+  
 }
 
 .swiper-container {
