@@ -12,20 +12,40 @@
     <!-- Font Awesome JS -->
 
 
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="Css/estilos.css">
     <title>WebZero</title>
 </head>
 
 <body>
     <div class="contenedor-index">
 
+        <div class="contenedor-header">
+           <span id="textoHeader">Ver mascotas</span> 
+        </div>
+
         <div class="cont-formulario">
 
-            <form action="">
-                <label for="">Nombre mascota</label>
-                <input type="text" class="caja-texto" id="txt_nombreMascota" name="txt_nombreMascota" autocomplete="off">
-                <label for="">Edad</label>
-                <input type="text" class="caja-texto" id="txt_edadMascota" autocomplete="off">
+            <form action="" id="formularioMascota">
+                <label for="txt_nombreMascota">Nombre mascota</label>
+                <input type="text" class="caja-texto" id="txt_nombreMascota" name="txt_nombreMascota"
+                    autocomplete="off">
+                <label for="txt_edadMascota">Edad</label>
+                <input type="number" class="caja-texto" id="txt_edadMascota" autocomplete="off">
+                <label for="" hidden>Sexo</label>
+                <div class="sexo-animal" id="sexoAnimal">
+
+                    <div class="sexo-macho">
+                        <input type="radio" name="sexo-animal" id="sexoMacho" checked>
+                        <label for="sexoMacho">Macho</label>
+                    </div>
+
+                    <div class="sexo-hembra">
+                        <input type="radio" name="sexo-animal" id="sexoHembra">
+                        <label for="sexoHembra">Hembra</label>
+                    </div>
+
+
+                </div>
                 <button class="btn-formulario" id="btnFormulario">Guardar mascota</button>
             </form>
 
@@ -39,7 +59,7 @@
 
     <!--RECOMENDACION COLOCAR ENCIMA DEL SCRIPT.JS-->
     <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
-    <script src="scripts.js"></script>
+    <script src="Js/scripts.js"></script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

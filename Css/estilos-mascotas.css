@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background: #fff;
+}
+
+.cont-mascota .cont-img-mascota img {
+  object-fit: cover;
+  width: 100%;
+  height: 70vh;
+}
+
+.cont-mascota .cont-descripcion-mascota {
+  padding: 5px;
+}
+
+.cont-mascota .cont-descripcion-mascota h3 {
+  margin-top: 30px;
+  font-size: 23px;
+  color: lightseagreen;
+}
+
+.cont-mascota .cont-descripcion-mascota p {
+  color: gray;
+  font-size: 20px;
+}

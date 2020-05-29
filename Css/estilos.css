@@ -12,10 +12,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./Imagenes/Mascotas_01.jpeg);
+    background-image: url(../Imagenes/Mascotas_01.jpeg);
     background-position: 51% 50%;
     background-repeat: no repeat;
     background-size: cover;
+}
+
+.contenedor-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    color: lightseagreen;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 10px 5px;
+}
+
+.contenedor-header > span {
+    cursor: pointer;
 }
 
 .cont-formulario {
@@ -28,6 +45,8 @@
 
 .cont-formulario label {
     font-size: 23px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .cont-formulario .caja-texto {
@@ -41,7 +60,18 @@
     text-transform: capitalize;
     outline: none;
     padding: 10px;
-    background-color: rgba(255, 255, 255,.7);
+    background-color: rgba(255, 255, 255, .7);
+}
+
+.sexo-animal {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(255, 255, 255, .7);
+    height: 50px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    margin-top: 15px;
 }
 
 .cont-formulario .btn-formulario {
